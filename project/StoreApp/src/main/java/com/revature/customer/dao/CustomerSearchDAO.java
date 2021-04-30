@@ -1,9 +1,10 @@
 package com.revature.customer.dao;
 
+import com.revature.exception.BusinessException;
 import com.revature.model.Customer;
 import com.revature.model.User;
 
 public interface CustomerSearchDAO {
-	public Customer logIn(User user); 
+	public Customer logIn(String username, String password) throws BusinessException; 
 
 }

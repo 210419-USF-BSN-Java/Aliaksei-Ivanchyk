@@ -5,6 +5,7 @@ public class Offer {
 	private int customer_id;
 	private int rock_id;
 	private int offer_id;
+	
 	public Offer() {
 		super();
 		// TODO Auto-generated constructor stub

@@ -7,6 +7,8 @@ public class Customer {
 	private String email;
 	private String phoneNumber;
 	private int customer_id;
+	private String username;
+	private String password;
 	
 	public Customer() {
 		super();
@@ -20,6 +22,20 @@ public class Customer {
 		this.email = email;
 		this.phoneNumber = phoneNumber;
 		this.customer_id = customer_id;
+	}
+	
+	
+
+	public Customer(String firstName, String lastName, String email, String phoneNumber, int customer_id,
+			String username, String password) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.phoneNumber = phoneNumber;
+		this.customer_id = customer_id;
+		this.setUsername(username);
+		this.password = password;
 	}
 
 	@Override
@@ -66,6 +82,22 @@ public class Customer {
 
 	public void setCustomer_id(int customer_id) {
 		this.customer_id = customer_id;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	
 	

@@ -26,8 +26,3 @@ public class PostgresConnection {
 	//	}
 	}
 }
-//Creational Design Pattern - "SingleTon" Java CLass
-//1)keep a static variable
-//2)Disable constructor access by making it as private
-//3)keep a static method which returns the instance of static variable/object check it if the instance is 
-//   already created and return it accordingly.

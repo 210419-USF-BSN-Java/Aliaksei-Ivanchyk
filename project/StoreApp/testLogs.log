@@ -1,0 +1,295 @@
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 00:15:56
+{INFO} - [com.revature.main.Main] -    ============================     -  Apr-30-21 Friday MDT 00:15:56
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    3) Exit     -  Apr-30-21 Friday MDT 00:18:07
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:21:55
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:21:59
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:21:59
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:21:59
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:21:59
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:21:59
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:21:59
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:21:59
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:22:55
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:22:57
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:22:57
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:22:57
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:22:57
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:22:57
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:22:57
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:22:57
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:22:59
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:22:59
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:22:59
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:22:59
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:22:59
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:22:59
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:22:59
+{INFO} - [com.revature.main.Main] -    Enter only a number between 1 - 4     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:23:07
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:29:14
+{INFO} - [com.revature.main.Main] -    under construction     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:29:17
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:29:22
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:29:22
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:29:22
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:29:22
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:29:22
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:29:22
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:29:22
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:29:28
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:29:28
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:29:28
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:29:28
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:29:28
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:29:28
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:29:28
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:30:50
+{INFO} - [com.revature.main.Main] -    Invalid Choice... Please enter a proper choice between 1-4 only.......     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:30:55
+{INFO} - [com.revature.main.Main] -    Enter only a number between 1 - 4     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    Invalid Choice... Please enter a proper choice between 1-4 only.......     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 00:31:02
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:48:03
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 01:48:05
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 01:48:16
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Unable to retrieve the customer from database     -  Apr-30-21 Friday MDT 01:48:20
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:48:20
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:50:11
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 01:50:12
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 01:50:15
+{WARN} - [com.revature.customer.dao.impl.CustomerSearchDAOImpl] -    Internal Error     -  Apr-30-21 Friday MDT 01:50:17
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:50:17
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:50:42
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 01:50:43
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 01:50:46
+{WARN} - [com.revature.customer.dao.impl.CustomerSearchDAOImpl] -    Internal Error     -  Apr-30-21 Friday MDT 01:50:48
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:50:48
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:58:32
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 01:58:33
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 01:58:36
+{WARN} - [com.revature.customer.dao.impl.CustomerSearchDAOImpl] -    Internal Error     -  Apr-30-21 Friday MDT 01:58:41
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:58:41
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:59:00
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 01:59:01
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 01:59:05
+{WARN} - [com.revature.customer.dao.impl.CustomerSearchDAOImpl] -    Internal Error     -  Apr-30-21 Friday MDT 01:59:07
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:59:07
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 01:59:59
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 02:00:00
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 02:00:03
+{WARN} - [com.revature.customer.dao.impl.CustomerSearchDAOImpl] -    Internal Error     -  Apr-30-21 Friday MDT 02:00:05
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 02:00:05
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 02:00:42
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 02:00:43
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 02:00:46
+{WARN} - [com.revature.customer.dao.impl.CustomerSearchDAOImpl] -    Internal Error     -  Apr-30-21 Friday MDT 02:00:48
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 02:00:48
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 02:01:12
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 02:01:14
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 02:01:16
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Loggin succesful     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Customer [firstName=alex, lastName=johnson, email=aliv@mail.com, phoneNumber=7201112222, customer_id=1]     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 02:01:18
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    ========================================     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 02:01:49
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  Apr-30-21 Friday MDT 02:01:50
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  Apr-30-21 Friday MDT 02:01:52
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Loggin succesful     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Customer [firstName=alex, lastName=johnson, email=aliv@mail.com, phoneNumber=7201112222, customer_id=1]     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.Main] -    User MENU     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.Main] -    ------------------     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.Main] -    1) Customer     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.Main] -    2) Employee     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.Main] -    3) Manager     -  Apr-30-21 Friday MDT 02:01:54
+{INFO} - [com.revature.main.Main] -    4) Exit     -  Apr-30-21 Friday MDT 02:01:54

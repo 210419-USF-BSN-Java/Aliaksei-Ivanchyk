@@ -6,6 +6,7 @@ public class Rock {
 	private double weight;
 	private double price;
 	private int rock_id;
+	
 	public Rock() {
 		super();
 	}
@@ -24,7 +25,7 @@ public class Rock {
 		this.type = type;
 		this.weight = weight;
 		this.price = price;
-		this.rock_id = rock_id;
+		this.setRock_id(rock_id);
 	}
 
 	public String getType() {
@@ -49,6 +50,14 @@ public class Rock {
 
 	public void setPrice(double price) {
 		this.price = price;
+	}
+
+	public int getRock_id() {
+		return rock_id;
+	}
+
+	public void setRock_id(int rock_id) {
+		this.rock_id = rock_id;
 	}
 	
 	
