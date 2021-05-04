@@ -5,6 +5,7 @@ import com.revature.model.Customer;
 import com.revature.model.User;
 
 public interface CustomerSearchDAO {
-	public Customer logIn(String username, String password) throws BusinessException; 
+	public Customer logIn(String username, String password) throws BusinessException;
+	public double returnCustomerBalance(int customer_id) throws BusinessException;
 
 }

@@ -4,7 +4,7 @@ public class Employee {
 
 	private String firstName;
 	private String lastName;
-	private String employee_id;
+	private int employee_id;
 	private String username;
 	private String password;
 	private int manager_id;
@@ -17,7 +17,7 @@ public class Employee {
 
 	
 	
-	public Employee(String firstName, String lastName, String employee_id, String username, String password,
+	public Employee(String firstName, String lastName, int employee_id, String username, String password,
 			int manager_id, int employee_type) {
 		super();
 		this.firstName = firstName;
@@ -60,11 +60,11 @@ public class Employee {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getEmployee_id() {
+	public int getEmployee_id() {
 		return employee_id;
 	}
-	public void setEmployee_id(String employee_id) {
-		this.employee_id = employee_id;
+	public void setEmployee_id(int i) {
+		this.employee_id = i;
 	}
 	public String getUsername() {
 		return username;

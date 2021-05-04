@@ -9,6 +9,7 @@ public class Customer {
 	private int customer_id;
 	private String username;
 	private String password;
+	private double balance;
 	
 	public Customer() {
 		super();
@@ -26,22 +27,28 @@ public class Customer {
 	
 	
 
+
+
 	public Customer(String firstName, String lastName, String email, String phoneNumber, int customer_id,
-			String username, String password) {
+			String username, String password, double balance) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 		this.phoneNumber = phoneNumber;
 		this.customer_id = customer_id;
-		this.setUsername(username);
+		this.username = username;
 		this.password = password;
+		this.balance = balance;
 	}
+
+
 
 	@Override
 	public String toString() {
 		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + ", phoneNumber="
-				+ phoneNumber + ", customer_id=" + customer_id + "]";
+				+ phoneNumber + ", customer_id=" + customer_id + ", username=" + username + ", password=" + password
+				+ ", balance=" + balance + "]";
 	}
 
 	public String getFirstName() {
@@ -98,6 +105,14 @@ public class Customer {
 
 	public void setUsername(String username) {
 		this.username = username;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
 	}
 	
 	

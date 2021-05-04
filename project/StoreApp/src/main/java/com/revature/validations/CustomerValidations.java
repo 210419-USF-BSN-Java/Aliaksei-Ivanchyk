@@ -100,4 +100,28 @@ public class CustomerValidations {
 			return false;
 		}
 	}
+	
+	public static boolean isValidType(String type) {
+		if (type != null && type.matches("[a-zA-Z]{4,20}")) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public static boolean isValidWeight(double weight) {
+		if (weight > 0 && weight< 10000) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public static boolean isValidPrice(double price) {
+		if (price > 0 && price < 10000) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }

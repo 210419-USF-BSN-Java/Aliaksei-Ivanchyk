@@ -12,6 +12,7 @@ import com.revature.customer.dao.CustomerSearchDAO;
 import com.revature.dao.dbutil.PostgresConnection;
 import com.revature.exception.BusinessException;
 import com.revature.model.Customer;
+import com.revature.model.Offer;
 
 
 public class CustomerSearchDAOImpl implements CustomerSearchDAO {
@@ -38,6 +39,7 @@ public class CustomerSearchDAOImpl implements CustomerSearchDAO {
 				customer.setFirstName(resultSet.getString("firstname"));
 				customer.setLastName(resultSet.getString("lastname"));
 				customer.setPhoneNumber(resultSet.getString("phonenumber"));
+				customer.setBalance(resultSet.getDouble("balance"));
 			}
 			} catch (ClassNotFoundException | SQLException e) {
 				e.printStackTrace();
@@ -49,6 +51,27 @@ public class CustomerSearchDAOImpl implements CustomerSearchDAO {
 			
 			
 		return customer;
+	}
+
+	@Override
+	public double returnCustomerBalance(int customer_id) throws BusinessException {
+		double balance = 0;
+		try(Connection connection=PostgresConnection.getConnection()){
+			String sql = "select balance from store.customers where customer_id = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, customer_id);
+			
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				balance = resultSet.getDouble("balance");
+				
+			}
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			Log.warn("Internal error");
+			throw new BusinessException("Internal error");
+		}
+		return balance;
 	}
 
 }

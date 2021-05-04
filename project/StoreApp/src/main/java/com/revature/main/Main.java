@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.revature.exception.BusinessException;
 import com.revature.main.menu.CustomerMenu;
 import com.revature.main.menu.EmployeeMenu;
 import com.revature.scanner.Input;
@@ -12,6 +13,7 @@ import com.revature.scanner.Input;
 public class Main {
 	private static Logger Log = Logger.getLogger(Main.class);
 	private static CustomerMenu cm = new CustomerMenu();
+	private static EmployeeMenu em = new EmployeeMenu();
 	
 	public static void main(String[] args) {
 		
@@ -38,7 +40,12 @@ public class Main {
 			
 			
 			case 2:
-				EmployeeMenu.LogIn();
+				try {
+					em.logIn();
+				} catch (BusinessException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				break;
 				
 			case 3:

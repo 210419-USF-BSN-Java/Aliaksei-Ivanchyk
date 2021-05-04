@@ -2,16 +2,17 @@ package com.revature.offer;
 
 import java.util.List;
 
+import com.revature.exception.BusinessException;
 import com.revature.model.Offer;
 
 public interface OfferCRUDDAO { 
 	
-	public int makeAnOffer(Offer offer); 
-	public int checkIfOfferAlreadyMade(int customer_id, int rock_id);
-	public int cancelOffer(int customer_id, int rock_id);
-	public List<Offer> getAllOffers();
-	public int acceptOffer(int offer_id, int customer_id, int rock_id);
-	public int rejectOffer(int offer_id); 
+	public Offer checkIfOfferAlreadyMade(int customer_id, int rock_id) throws BusinessException;
+	public int cancelOffer(int customer_id, int rock_id) throws BusinessException;
+	public int rejectOffer(int offer_id) throws BusinessException;
+	public List<Offer> getAllActiveOffers() throws BusinessException;
+	public int makeAnOffer(double amount, int customer_id, int rock_id) throws BusinessException;
+	public int acceptOffer(double newBalance, Offer offer) throws BusinessException; 
 	
 
 }
