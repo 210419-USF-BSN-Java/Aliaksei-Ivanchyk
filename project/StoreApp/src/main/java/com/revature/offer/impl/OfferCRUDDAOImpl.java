@@ -134,7 +134,7 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 	public int acceptOffer(double newBalance, Offer offer, Rock rock) throws BusinessException {
 		java.util.Date date = new Date();
 		Connection connection = null;
-		Log.info(offer);
+//		Log.info(offer);
 		int c = 0;
 		int c1 = 0;
 		int c2 = 0;
@@ -157,26 +157,26 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 			preparedStatement.setDouble(1, newBalance);
 			preparedStatement.setInt(2, offer.getCustomer_id());
 			c = preparedStatement.executeUpdate();
-			Log.info(c);
+//			Log.info(c);
 			
 			preparedStatement=connection.prepareStatement(sql2);
 			preparedStatement.setInt(1, 1);
 			preparedStatement.setInt(2, offer.getOffer_id());
 			c1 = preparedStatement.executeUpdate();
-			Log.info(c1);
+//			Log.info(c1);
 			
 			preparedStatement=connection.prepareStatement(sql3);
 			preparedStatement.setInt(1, 0);
 			preparedStatement.setInt(2, offer.getRock_id());
 			c2 = preparedStatement.executeUpdate();
-			Log.info(c2);
+//			Log.info(c2);
 			
 			preparedStatement=connection.prepareStatement(sql4);
 			preparedStatement.setInt(1, 0);
 			preparedStatement.setInt(2, offer.getRock_id());
 			preparedStatement.setInt(3, offer.getStatus());
 			c3 = preparedStatement.executeUpdate();
-			Log.info(c3);
+//			Log.info(c3);
 			
 			preparedStatement=connection.prepareStatement(sql5);
 			preparedStatement.setDouble(1, offer.getOfferAmount());
@@ -184,7 +184,7 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 			preparedStatement.setInt(3, offer.getRock_id());
 			preparedStatement.setInt(4, offer.getCustomer_id());
 			c4 = preparedStatement.executeUpdate();
-			Log.info(c4);
+//			Log.info(c4);
 			
 			preparedStatement=connection.prepareStatement(sql6);
 			preparedStatement.setString(1, rock.getType());
@@ -194,7 +194,7 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 			preparedStatement.setInt(5, offer.getCustomer_id());
 			
 			c5 = preparedStatement.executeUpdate();
-			Log.info(c5);
+//			Log.info(c5);
 			
 			connection.commit();
 			if (c >0  &&  c1 > 0 && c2 >0 && c3 >0 && c4 > 0 && c5 > 0) {

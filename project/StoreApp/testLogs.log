@@ -5143,3 +5143,367 @@ Menu     -  May-05-21 Wednesday MDT 05:54:53
 {INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 05:55:11
 {INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 05:55:11
 {INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-05-21 Wednesday MDT 05:55:14
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:08:21
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:08:24
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:08:37
+{INFO} - [com.revature.employee.service.impl.EmployeeSearchServiceImpl] -    Loggin succesful     -  May-05-21 Wednesday MDT 08:08:40
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:08:40
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:08:40
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:08:40
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:08:40
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:08:40
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter type of rock:      -  May-05-21 Wednesday MDT 08:08:41
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter weight:      -  May-05-21 Wednesday MDT 08:12:03
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter price:      -  May-05-21 Wednesday MDT 08:12:08
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Added item successfully     -  May-05-21 Wednesday MDT 08:12:11
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:12:11
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:12:11
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:12:11
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:12:11
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:12:11
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter type of rock:      -  May-05-21 Wednesday MDT 08:12:13
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter weight:      -  May-05-21 Wednesday MDT 08:12:22
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter price:      -  May-05-21 Wednesday MDT 08:12:24
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Added item successfully     -  May-05-21 Wednesday MDT 08:12:32
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:12:32
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:12:32
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:12:32
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:12:32
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:12:32
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    1) a diamond of weight 44.0 grams with a price of 500.0     -  May-05-21 Wednesday MDT 08:12:53
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    2) a Gabbo of weight 45.3 grams with a price of 150.0     -  May-05-21 Wednesday MDT 08:12:53
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    3) a sandstone of weight 77.0 grams with a price of 199.99     -  May-05-21 Wednesday MDT 08:12:53
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:12:53
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:12:57
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:12:57
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:12:57
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:12:57
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:12:57
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter type of rock:      -  May-05-21 Wednesday MDT 08:13:00
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter weight:      -  May-05-21 Wednesday MDT 08:13:10
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter price:      -  May-05-21 Wednesday MDT 08:13:15
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Added item successfully     -  May-05-21 Wednesday MDT 08:13:27
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:13:27
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:13:27
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:13:27
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:13:27
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:13:27
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    1) a diamond of weight 44.0 grams with a price of 500.0     -  May-05-21 Wednesday MDT 08:13:31
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    2) a Gabbo of weight 45.3 grams with a price of 150.0     -  May-05-21 Wednesday MDT 08:13:31
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    3) a sandstone of weight 77.0 grams with a price of 199.99     -  May-05-21 Wednesday MDT 08:13:31
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    4) a Marble of weight 100.5 grams with a price of 249.99     -  May-05-21 Wednesday MDT 08:13:31
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:13:31
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Rock [type=diamond, weight=44.0, price=500.0, rock_id=3, status=1]     -  May-05-21 Wednesday MDT 08:13:41
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:13:41
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) Remove item from shop     -  May-05-21 Wednesday MDT 08:13:41
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) Edit an item     -  May-05-21 Wednesday MDT 08:13:41
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Exit     -  May-05-21 Wednesday MDT 08:13:41
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:13:42
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) Update type     -  May-05-21 Wednesday MDT 08:13:42
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) Update weight     -  May-05-21 Wednesday MDT 08:13:42
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Update price     -  May-05-21 Wednesday MDT 08:13:42
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Update status     -  May-05-21 Wednesday MDT 08:13:42
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    5) Exit     -  May-05-21 Wednesday MDT 08:13:42
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter new type     -  May-05-21 Wednesday MDT 08:13:43
+{INFO} - [com.revature.store.dao.impl.StoreCRUDDAOImpl] -    1     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    The item was updated succesfully     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) Update type     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) Update weight     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Update price     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Update status     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    5) Exit     -  May-05-21 Wednesday MDT 08:13:47
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:13:50
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) Remove item from shop     -  May-05-21 Wednesday MDT 08:13:50
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) Edit an item     -  May-05-21 Wednesday MDT 08:13:50
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Exit     -  May-05-21 Wednesday MDT 08:13:50
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:13:53
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:13:53
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:13:53
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:13:53
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:13:53
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    1) a Gabbo of weight 45.3 grams with a price of 150.0     -  May-05-21 Wednesday MDT 08:13:54
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    2) a sandstone of weight 77.0 grams with a price of 199.99     -  May-05-21 Wednesday MDT 08:13:54
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    3) a Marble of weight 100.5 grams with a price of 249.99     -  May-05-21 Wednesday MDT 08:13:54
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    4) a Diamond of weight 44.0 grams with a price of 500.0     -  May-05-21 Wednesday MDT 08:13:54
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:13:54
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:14:18
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:14:18
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:14:18
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:14:18
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:14:18
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:14:21
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter first name:      -  May-05-21 Wednesday MDT 08:14:25
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter last name:      -  May-05-21 Wednesday MDT 08:14:29
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username name:      -  May-05-21 Wednesday MDT 08:14:31
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:14:42
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter email:      -  May-05-21 Wednesday MDT 08:14:44
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter phoneNumber:      -  May-05-21 Wednesday MDT 08:14:53
+{INFO} - [com.revature.customer.service.impl.CustomerCRUDServiceImpl] -    New customer registered succesfully     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:14:57
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:15:00
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:15:04
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Loggin succesful     -  May-05-21 Wednesday MDT 08:15:07
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Welcome John     -  May-05-21 Wednesday MDT 08:15:07
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:15:07
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:15:07
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:15:07
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:15:07
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:15:07
+{INFO} - [com.revature.main.menu.CustomerMenu] -    1) a Gabbo of weight 45.3 grams with a price of $150.0     -  May-05-21 Wednesday MDT 08:15:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    2) a sandstone of weight 77.0 grams with a price of $199.99     -  May-05-21 Wednesday MDT 08:15:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    3) a Marble of weight 100.5 grams with a price of $249.99     -  May-05-21 Wednesday MDT 08:15:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    4) a Diamond of weight 44.0 grams with a price of $500.0     -  May-05-21 Wednesday MDT 08:15:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:15:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Rock [type=Marble, weight=100.5, price=249.99, rock_id=10, status=1]     -  May-05-21 Wednesday MDT 08:15:12
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Your offer has been either rejected or you have not made any offers on this item yet     -  May-05-21 Wednesday MDT 08:15:12
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Would you like to make an offer?     -  May-05-21 Wednesday MDT 08:15:12
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:15:12
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) Make an offer     -  May-05-21 Wednesday MDT 08:15:12
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) Exit     -  May-05-21 Wednesday MDT 08:15:12
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter offer amount     -  May-05-21 Wednesday MDT 08:15:14
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Offer made successfully     -  May-05-21 Wednesday MDT 08:15:18
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:15:18
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:15:18
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:15:18
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:15:18
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:15:18
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:15:22
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:15:24
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:15:26
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:15:29
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:15:34
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:15:36
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Loggin succesful     -  May-05-21 Wednesday MDT 08:15:39
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Welcome bobby     -  May-05-21 Wednesday MDT 08:15:39
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:15:39
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:15:39
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:15:39
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:15:39
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:15:39
+{INFO} - [com.revature.main.menu.CustomerMenu] -    1) a Gabbo of weight 45.3 grams with a price of $150.0     -  May-05-21 Wednesday MDT 08:15:40
+{INFO} - [com.revature.main.menu.CustomerMenu] -    2) a sandstone of weight 77.0 grams with a price of $199.99     -  May-05-21 Wednesday MDT 08:15:40
+{INFO} - [com.revature.main.menu.CustomerMenu] -    3) a Marble of weight 100.5 grams with a price of $249.99     -  May-05-21 Wednesday MDT 08:15:40
+{INFO} - [com.revature.main.menu.CustomerMenu] -    4) a Diamond of weight 44.0 grams with a price of $500.0     -  May-05-21 Wednesday MDT 08:15:40
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:15:40
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Rock [type=Marble, weight=100.5, price=249.99, rock_id=10, status=1]     -  May-05-21 Wednesday MDT 08:15:43
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Your offer has been either rejected or you have not made any offers on this item yet     -  May-05-21 Wednesday MDT 08:15:43
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Would you like to make an offer?     -  May-05-21 Wednesday MDT 08:15:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:15:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) Make an offer     -  May-05-21 Wednesday MDT 08:15:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) Exit     -  May-05-21 Wednesday MDT 08:15:43
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter offer amount     -  May-05-21 Wednesday MDT 08:15:46
+{INFO} - [com.revature.customer.dao.impl.CustomerCRUDDAOImpl] -    Internal error     -  May-05-21 Wednesday MDT 08:15:47
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:15:47
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:15:47
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:15:47
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:15:47
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:15:47
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:16:06
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:16:39
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:16:41
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Loggin succesful     -  May-05-21 Wednesday MDT 08:16:43
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Welcome bobby     -  May-05-21 Wednesday MDT 08:16:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:16:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:16:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:16:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:16:43
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:16:43
+{INFO} - [com.revature.main.menu.CustomerMenu] -    1) a Gabbo of weight 45.3 grams with a price of $150.0     -  May-05-21 Wednesday MDT 08:16:51
+{INFO} - [com.revature.main.menu.CustomerMenu] -    2) a sandstone of weight 77.0 grams with a price of $199.99     -  May-05-21 Wednesday MDT 08:16:51
+{INFO} - [com.revature.main.menu.CustomerMenu] -    3) a Marble of weight 100.5 grams with a price of $249.99     -  May-05-21 Wednesday MDT 08:16:51
+{INFO} - [com.revature.main.menu.CustomerMenu] -    4) a Diamond of weight 44.0 grams with a price of $500.0     -  May-05-21 Wednesday MDT 08:16:51
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:16:51
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Rock [type=Marble, weight=100.5, price=249.99, rock_id=10, status=1]     -  May-05-21 Wednesday MDT 08:16:52
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Your offer has been either rejected or you have not made any offers on this item yet     -  May-05-21 Wednesday MDT 08:16:52
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Would you like to make an offer?     -  May-05-21 Wednesday MDT 08:16:52
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:16:52
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) Make an offer     -  May-05-21 Wednesday MDT 08:16:52
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) Exit     -  May-05-21 Wednesday MDT 08:16:52
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter offer amount     -  May-05-21 Wednesday MDT 08:16:53
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Offer made successfully     -  May-05-21 Wednesday MDT 08:16:54
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:16:54
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:16:54
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:16:54
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:16:54
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:16:54
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:18:29
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:18:30
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:18:36
+{INFO} - [com.revature.employee.service.impl.EmployeeSearchServiceImpl] -    Loggin succesful     -  May-05-21 Wednesday MDT 08:18:39
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:18:39
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:18:39
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:18:39
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:18:39
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:18:39
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    1) a offer with id 5 and price amount 222.0 for a customer with id 1 with a rock_id of 3     -  May-05-21 Wednesday MDT 08:18:41
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    2) a offer with id 16 and price amount 240.0 for a customer with id 6 with a rock_id of 10     -  May-05-21 Wednesday MDT 08:18:41
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    3) a offer with id 18 and price amount 242.0 for a customer with id 5 with a rock_id of 10     -  May-05-21 Wednesday MDT 08:18:41
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:18:41
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Offer [offerAmount=240.0, customer_id=6, rock_id=10, offer_id=16, status=2]     -  May-05-21 Wednesday MDT 08:18:59
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:18:59
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) Accept an offer     -  May-05-21 Wednesday MDT 08:18:59
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) Decline an offer     -  May-05-21 Wednesday MDT 08:18:59
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Exit     -  May-05-21 Wednesday MDT 08:18:59
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    Offer [offerAmount=240.0, customer_id=6, rock_id=10, offer_id=16, status=2]     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.service.impl.OfferCRUDServiceImpl] -    Offer [offerAmount=240.0, customer_id=6, rock_id=10, offer_id=16, status=2]     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    Offer [offerAmount=240.0, customer_id=6, rock_id=10, offer_id=16, status=2]     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    1     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    1     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    1     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    1     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    1     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    1     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.offer.impl.OfferCRUDDAOImpl] -    The transaction was successful     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:19:01
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    1) a offer with id 5 and price amount 222.0 for a customer with id 1 with a rock_id of 3     -  May-05-21 Wednesday MDT 08:21:39
+{INFO} - [com.revature.main.menu.EmployeeMenu] -    
+Select an item or press 9 to exit     -  May-05-21 Wednesday MDT 08:21:39
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:21:44
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:21:44
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    2) View current offers     -  May-05-21 Wednesday MDT 08:21:44
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    3) Add item to store     -  May-05-21 Wednesday MDT 08:21:44
+{INFO} - [com.revature.main.menu.EmployeePrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:21:44
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:21:48
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:21:49
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:22:12
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:22:16
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-05-21 Wednesday MDT 08:22:20
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-05-21 Wednesday MDT 08:22:24
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Loggin succesful     -  May-05-21 Wednesday MDT 08:22:27
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Welcome John     -  May-05-21 Wednesday MDT 08:22:27
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:22:27
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:22:27
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:22:27
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:22:27
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:22:27
+{INFO} - [com.revature.main.menu.CustomerMenu] -    1) A rock of type Marble of weight 100.5 grams purchased for a  price of $240.0     -  May-05-21 Wednesday MDT 08:22:30
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-05-21 Wednesday MDT 08:22:30
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-05-21 Wednesday MDT 08:22:30
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-05-21 Wednesday MDT 08:22:30
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-05-21 Wednesday MDT 08:22:30
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-05-21 Wednesday MDT 08:22:30
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-05-21 Wednesday MDT 08:24:05
+{INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-05-21 Wednesday MDT 08:24:06
