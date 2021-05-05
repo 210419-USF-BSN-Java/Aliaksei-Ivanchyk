@@ -20,6 +20,8 @@ public class ManagerCRUDServiceImpl implements  ManagerCRUDService{
 				&& CustomerValidations.isValidPassword(employee.getPassword()) 
 				&& CustomerValidations.isValidUserName(employee.getUsername())) {
 			c = mcd.addEmployee(employee);
+		} else {
+			Log.warn("Entered information is not correct format");
 		}
 		return c;
 	}

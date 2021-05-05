@@ -52,13 +52,14 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 			
 			ResultSet resultSet=preparedStatement.executeQuery();
 			if (resultSet.next()) {
+				if (resultSet.getInt("status") == 2) {
 				offer = new Offer();
 				
 				offer.setCustomer_id(resultSet.getInt("customer_id"));
 				offer.setOffer_id(resultSet.getInt("offer_id"));
 				offer.setOfferAmount(resultSet.getDouble("offeramount"));
 				offer.setRock_id(resultSet.getInt("rock_id"));
-				
+				}
 			}
 			
 		} catch (ClassNotFoundException | SQLException e) {
@@ -117,10 +118,9 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 	public int rejectOffer(int offer_id) throws BusinessException {
 		int c=0;
 		try(Connection connection=PostgresConnection.getConnection()){
-			String sql = "update store.offers set status=? where offer_id=?";
+			String sql = "delete from store.offers  where offer_id=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			preparedStatement.setInt(1, 0);
-			preparedStatement.setInt(2, offer_id);
+			preparedStatement.setInt(1, offer_id);
 			
 			c=preparedStatement.executeUpdate();
 		} catch (ClassNotFoundException | SQLException e) {
@@ -131,7 +131,7 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 	}
 
 	@Override
-	public int acceptOffer(double newBalance, Offer offer) throws BusinessException {
+	public int acceptOffer(double newBalance, Offer offer, Rock rock) throws BusinessException {
 		java.util.Date date = new Date();
 		Connection connection = null;
 		Log.info(offer);
@@ -140,6 +140,7 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 		int c2 = 0;
 		int c3 = 0;
 		int c4 = 0;
+		int c5 = 0;
 		try {
 			connection=PostgresConnection.getConnection();
 			String sql1 = "update store.customers set balance =? where customer_id=?"; // updates balance of customer
@@ -148,6 +149,8 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 			String sql4 = "update store.offers set status=? where rock_id=? and status=?"; // updates all other offers to rejected
 			String sql5 =  "insert into store.salerecords(saleamount, timestamp, rock_id,customer_id)" 
 					+ " values(?,?,?,?)"; // sales 
+			String sql6 =  "insert into store.customer_rocks(type, weight,price,rock_id, customer_id)" 
+					+ " values(?,?,?,?,?)"; // puts the purchased rock item into customer owned rock table
 			connection.setAutoCommit(false);
 			
 			PreparedStatement preparedStatement=connection.prepareStatement(sql1);
@@ -183,8 +186,18 @@ public class OfferCRUDDAOImpl implements OfferCRUDDAO {
 			c4 = preparedStatement.executeUpdate();
 			Log.info(c4);
 			
+			preparedStatement=connection.prepareStatement(sql6);
+			preparedStatement.setString(1, rock.getType());
+			preparedStatement.setDouble(2, rock.getWeight());
+			preparedStatement.setDouble(3, offer.getOfferAmount());
+			preparedStatement.setInt(4, offer.getRock_id());
+			preparedStatement.setInt(5, offer.getCustomer_id());
+			
+			c5 = preparedStatement.executeUpdate();
+			Log.info(c5);
+			
 			connection.commit();
-			if (c >0  &&  c1 > 0 && c2 >0 && c3 >0 && c4 > 0) {
+			if (c >0  &&  c1 > 0 && c2 >0 && c3 >0 && c4 > 0 && c5 > 0) {
 				Log.info("The transaction was successful");
 			} 
 		} catch (SQLException | ClassNotFoundException e) {

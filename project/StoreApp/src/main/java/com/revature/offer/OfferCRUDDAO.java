@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.revature.exception.BusinessException;
 import com.revature.model.Offer;
+import com.revature.model.Rock;
 
 public interface OfferCRUDDAO { 
 	
@@ -12,7 +13,7 @@ public interface OfferCRUDDAO {
 	public int rejectOffer(int offer_id) throws BusinessException;
 	public List<Offer> getAllActiveOffers() throws BusinessException;
 	public int makeAnOffer(double amount, int customer_id, int rock_id) throws BusinessException;
-	public int acceptOffer(double newBalance, Offer offer) throws BusinessException; 
+	public int acceptOffer(double newBalance, Offer offer, Rock rock) throws BusinessException; 
 	
 
 }

@@ -70,6 +70,7 @@ public class ManagerCRUDDAOImpl implements ManagerDAOCRUD {
 				saleRecord.setRock_id(resultSet.getInt("rock_id"));
 				saleRecord.setSale_id(resultSet.getInt("sales_id"));
 				saleRecord.setTimestamp(resultSet.getTimestamp("timestamp"));
+				saleRecord.setSaleAmount(resultSet.getDouble("saleamount"));
 				
 
 				salerecords.add(saleRecord);

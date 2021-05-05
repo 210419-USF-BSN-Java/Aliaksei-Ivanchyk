@@ -31,7 +31,7 @@ public class ManagerMenu {
 		
 		try {
 			employee = mdc.logIn(username, password);
-			Log.info(employee);
+			Log.info("Welcome " + employee.getFirstName());
 			logedIn = true;
 
 		} catch (BusinessException e) {

@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 
 import com.revature.exception.BusinessException;
 import com.revature.model.Offer;
+import com.revature.model.Rock;
 import com.revature.offer.OfferCRUDDAO;
 import com.revature.offer.impl.OfferCRUDDAOImpl;
 import com.revature.offer.service.OfferCRUDService;
@@ -19,12 +20,13 @@ public class OfferCRUDServiceImpl implements OfferCRUDService  {
 	}
 
 	@Override
-	public int acceptOffer(double amount, Offer offer) throws BusinessException {
+	public int acceptOffer(double amount, Offer offer, Rock rock) throws BusinessException {
 		int c = 0;
 		if (amount < 0 ) {
 			Log.info("Balance cannot be zero");
 		} else {
-			c = ocd.acceptOffer(amount, offer);		
+			Log.info(offer);
+			c = ocd.acceptOffer(amount, offer, rock );		
 		}
 		return c;
 	}

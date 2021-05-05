@@ -11,5 +11,6 @@ public interface StoreCRUDDAO {
 	public int removeRockItem(int id) throws BusinessException;
 	public int updateRockItem(Rock rock) throws BusinessException;
 	public int addRockItem(Rock rock) throws BusinessException;
+	public Rock getRockItem(int rock_id) throws BusinessException;
 
 }

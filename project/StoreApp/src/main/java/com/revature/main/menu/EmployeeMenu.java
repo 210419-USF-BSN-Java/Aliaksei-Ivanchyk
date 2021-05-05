@@ -5,7 +5,9 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.revature.customer.dao.CustomerCRUDDAO;
 import com.revature.customer.dao.CustomerSearchDAO;
+import com.revature.customer.dao.impl.CustomerCRUDDAOImpl;
 import com.revature.customer.dao.impl.CustomerSearchDAOImpl;
 import com.revature.employee.service.EmployeeSearchService;
 import com.revature.employee.service.impl.EmployeeSearchServiceImpl;
@@ -15,6 +17,8 @@ import com.revature.model.Offer;
 import com.revature.model.Rock;
 import com.revature.offer.OfferCRUDDAO;
 import com.revature.offer.impl.OfferCRUDDAOImpl;
+import com.revature.offer.service.OfferCRUDService;
+import com.revature.offer.service.impl.OfferCRUDServiceImpl;
 import com.revature.scanner.Input;
 import com.revature.store.StoreCRUDDAO;
 import com.revature.store.dao.impl.StoreCRUDDAOImpl;
@@ -28,8 +32,10 @@ public class EmployeeMenu {
 	private EmployeePrintMenu epm = new EmployeePrintMenu();
 	StoreCRUDDAO scd = new StoreCRUDDAOImpl();
 	OfferCRUDDAO ocd = new OfferCRUDDAOImpl();
+	OfferCRUDService ocs = new OfferCRUDServiceImpl();
 	CustomerSearchDAO csd = new CustomerSearchDAOImpl();
 	StoreCRUDService scs = new StoreCRUDServiceImpl();
+	CustomerCRUDDAO ccd = new CustomerCRUDDAOImpl();
 
 	public void logIn() throws BusinessException {
 		boolean logedIn = false;
@@ -41,7 +47,7 @@ public class EmployeeMenu {
 
 		try {
 			employee = ess.logIn(username, password);
-			Log.info(employee);
+//			Log.info(employee);
 			logedIn = true;
 
 		} catch (BusinessException e) {
@@ -81,7 +87,12 @@ public class EmployeeMenu {
 					break;
 
 				case 3:
-					addItem();
+					try {
+						addItem();
+					} catch (NumberFormatException | NullPointerException e) {
+//						e.printStackTrace();
+						Log.warn("Wrong format input");
+					}
 					break;
 
 				case 4:
@@ -107,10 +118,11 @@ public class EmployeeMenu {
 		rock.setStatus(1);
 		try {
 			scs.addRockItem(rock);
+			Log.info("Added item successfully");
 		} catch (BusinessException e) {
 			Log.info("Unable to add the item");
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		
 		
@@ -123,7 +135,8 @@ public class EmployeeMenu {
 
 		for (int i = 0; i < offers.size(); i++) {
 			Log.info((i + 1) + ") a offer with id " + offers.get(i).getOffer_id() + " and price amount "
-					+ offers.get(i).getOfferAmount() + " for a customer with id " + offers.get(i).getCustomer_id());
+					+ offers.get(i).getOfferAmount() + " for a customer with id " + offers.get(i).getCustomer_id() 
+			+ " with a rock_id of " + offers.get(i).getRock_id());
 		}
 
 		int ch = 0;
@@ -163,7 +176,9 @@ public class EmployeeMenu {
 						case 1:
 							double oldBalance = csd.returnCustomerBalance(offer.getCustomer_id());
 							double newBalance = oldBalance + offer.getOfferAmount();
-							ocd.acceptOffer(newBalance, offer);
+							Rock rock = scd.getRockItem(offer.getRock_id());
+							Log.info(offer);
+							ocs.acceptOffer(newBalance, offer, rock);
 							break start;
 						case 2:
 							int c = ocd.rejectOffer(offer.getOffer_id());
@@ -235,7 +250,14 @@ public class EmployeeMenu {
 						switch (ch1) {
 
 						case 1:
-							int c = scd.removeRockItem(rock.getRock_id());
+							int c = 0;
+							try {
+								epm.printActiveItemMenu();
+								c = scd.removeRockItem(rock.getRock_id());
+							} catch (BusinessException e) {
+								Log.warn("Item has offers on it and cannot be deleted");
+							}
+		
 							if (c > 0) {
 								Log.info("Item removed succesfully");
 							} else {
@@ -301,10 +323,14 @@ public class EmployeeMenu {
 									try {
 										Log.info("Enter new status (1 or 0)");
 										int status = Integer.parseInt(scanner.nextLine());
+										if (status == 1 || status == 0) {
 										rock.setStatus(status);
 										int c1 = scd.updateRockItem(rock);
 										if (c1 > 0) {
 											Log.info("The item was updated succesfully");
+										}
+										} else {
+											Log.info("The status entered is incorrect");
 										}
 									} catch (NumberFormatException e) {
 										Log.warn("Please enter a number only");
@@ -326,7 +352,7 @@ public class EmployeeMenu {
 							break;
 
 						case 3:
-							break;
+							break start;
 
 						default:
 							Log.info("Invalid Choice... Please enter a proper choice between 1-3 only.......");

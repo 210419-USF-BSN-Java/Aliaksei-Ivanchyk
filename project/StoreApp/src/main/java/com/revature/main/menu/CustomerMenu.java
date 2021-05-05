@@ -45,7 +45,7 @@ public class CustomerMenu {
 		
 		try {
 			customer = csm.logIn(username, password);
-			Log.info(customer);
+			Log.info("\nWelcome " + customer.getFirstName());
 			logedIn = true;
 
 		} catch (BusinessException e) {
@@ -78,7 +78,9 @@ public class CustomerMenu {
 				
 				
 				case 2:
-					viewItemsOwned(customer);
+						viewItemsOwned(customer);
+
+
 					break;
 					
 				case 3:
@@ -93,6 +95,7 @@ public class CustomerMenu {
 						}
 						
 						switch(ch1) {
+						
 						case 1:
 							double paymentAmount;
 							Log.info("What is your payment amount?");
@@ -102,11 +105,14 @@ public class CustomerMenu {
 								customer.setBalance(newBalance);
 							} catch (BusinessException e) {
 								// TODO Auto-generated catch block
-								e.printStackTrace();
+								
 							}
 							break;
 						case 2:
 							Log.info("Exiting to the previos menu");
+							break;
+						default:
+							Log.info("Invalid Choice... Please enter a proper choice between 1-4 only.......");
 							break;
 							
 						}
@@ -139,7 +145,7 @@ public class CustomerMenu {
 		
 		for (int i = 0; i < rocks.size(); i++) {
 			Log.info((i + 1) + ") a " + rocks.get(i).getType() + " of weight " + rocks.get(i).getWeight() 
-					+ " grams with a price of " + rocks.get(i).getPrice());
+					+ " grams with a price of $" + rocks.get(i).getPrice());
 		}
 		
 		int ch = 0;
@@ -163,7 +169,7 @@ public class CustomerMenu {
 			}
 			
 			if (activateItem) {
-				Log.info(rock);
+//				Log.info(rock);
 				Offer offer = ccd.getOffer(customer.getCustomer_id(), rock.getRock_id());
 				if (offer != null) {
 					Log.info("You have already made an offer for this item");
@@ -198,6 +204,7 @@ public class CustomerMenu {
 					}
 					
 				} else {
+					Log.info("Your offer has been either rejected or you have not made any offers on this item yet");
 					Log.info("\nWould you like to make an offer?");
 					int ch1 = 0;
 //					cpm.printOfferMenu();
@@ -219,7 +226,12 @@ public class CustomerMenu {
 							Log.warn("Please enter a number only");
 						}
 						
-						ccs.makeAnOffer(amount, customer.getCustomer_id(), rock.getRock_id());
+						int c = ccs.makeAnOffer(amount, customer.getCustomer_id(), rock.getRock_id());
+						if (c > 0) {
+							Log.info("Offer made successfully");
+						} else {
+							Log.info("Unable to make an offer on this item");
+						}
 						break start;
 						
 						
@@ -244,14 +256,15 @@ public class CustomerMenu {
 		List<Rock> rocks = null;
 		try {
 			rocks = scd.getRockItemsOwnedByCustomerID(customer.getCustomer_id());
-		} catch (BusinessException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+
 		
 		for (int i = 0; i < rocks.size(); i++) {
-			Log.info((i + 1) + ") a " + rocks.get(i).getType() + " of weight " + rocks.get(i).getWeight() 
-					+ " grams with a price of " + rocks.get(i).getPrice());
+			Log.info((i + 1) + ") A rock of type " + rocks.get(i).getType() + " of weight " + rocks.get(i).getWeight() 
+					+ " grams purchased for a  price of $" + rocks.get(i).getPrice());
+		}
+		} catch (BusinessException | NullPointerException e) {
+			// TODO Auto-generated catch block
+			
 		}
 	}
 
