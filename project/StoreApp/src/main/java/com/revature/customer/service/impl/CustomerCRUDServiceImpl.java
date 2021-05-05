@@ -7,16 +7,13 @@ import com.revature.customer.dao.impl.CustomerCRUDDAOImpl;
 import com.revature.customer.service.CustomerCRUDService;
 import com.revature.exception.BusinessException;
 import com.revature.model.Customer;
+import com.revature.validations.CustomerValidations;
 
 
 public class CustomerCRUDServiceImpl implements CustomerCRUDService {
 	private static Logger Log = Logger.getLogger(CustomerCRUDServiceImpl.class);
 	CustomerCRUDDAO ccd = new CustomerCRUDDAOImpl();
-	@Override
-	public Customer registerCustomer(Customer customer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 
 	@Override
@@ -48,6 +45,23 @@ public class CustomerCRUDServiceImpl implements CustomerCRUDService {
 		if (c == 0) {
 			Log.warn("Something went wrong on adding the offer");
 			throw new BusinessException();
+		}
+		return c;
+	}
+
+
+	@Override
+	public int registerNewCustomer(Customer customer) throws BusinessException {
+		int c = 0;
+		if (CustomerValidations.isValidFirstName(customer.getFirstName()) && CustomerValidations.isValidLastName(customer.getLastName()) 
+				&& CustomerValidations.isValidPassword(customer.getPassword()) 
+				&& CustomerValidations.isValidUserName(customer.getUsername())
+				&& CustomerValidations.isValidemail(customer.getEmail())
+				&& CustomerValidations.isValidPhoneNumber(customer.getPhoneNumber())) {
+			c = ccd.registerNewCustomer(customer);
+		}
+		if (c > 0) {
+			Log.info("New customer registered succesfully");
 		}
 		return c;
 	}

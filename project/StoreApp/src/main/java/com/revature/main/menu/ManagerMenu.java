@@ -1,5 +1,6 @@
 package com.revature.main.menu;
 
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
@@ -10,6 +11,7 @@ import com.revature.manager.dao.impl.ManagerCRUDDAOImpl;
 import com.revature.manager.service.ManagerCRUDService;
 import com.revature.manager.service.impl.ManagerCRUDServiceImpl;
 import com.revature.model.Employee;
+import com.revature.model.SaleRecord;
 import com.revature.scanner.Input;
 
 public class ManagerMenu {
@@ -52,12 +54,31 @@ public class ManagerMenu {
 				switch (ch) {
 				
 				case 1:
-					addNewEmployee();
+					try {
+						addNewEmployee();
+					} catch (NumberFormatException e) {
+						Log.warn("Please enter values in aa right format");
+					}
 					break;
 				case 2:
+					try {
+						deleteEmployee();
+					} catch (BusinessException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (NumberFormatException e) {
+						Log.warn("Please enter values in aa right format");
+					}
+					
 					
 					break;
 				case 3:
+					try {
+						listSalesRecords();
+					} catch (BusinessException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					
 					break;
 				case 4:
@@ -71,6 +92,29 @@ public class ManagerMenu {
 				
 			} while (ch != 4);
 		}
+	}
+
+	private void listSalesRecords() throws BusinessException {
+		List<SaleRecord> salerecords = mdc.getSalesHistory();
+		
+		for (int i = 0; i < salerecords.size(); i++) {
+			Log.info(salerecords.get(i).toString());
+		}
+		
+		
+	}
+
+	private void deleteEmployee() throws BusinessException {
+		Log.info("Enter employee id: ");
+		int employee_id = Integer.parseInt(scanner.nextLine());
+		int c = mdc.deleteEmployee(employee_id);
+		if (c > 0) {
+			Log.info("Employee deleted succesfully");
+		} else {
+			Log.info("Unable to delete employee");
+		}
+		
+		
 	}
 
 	private void addNewEmployee() {

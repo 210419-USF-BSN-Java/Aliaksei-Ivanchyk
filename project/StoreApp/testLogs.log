@@ -2845,3 +2845,253 @@ Menu     -  May-04-21 Tuesday MDT 01:25:01
 {INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 03:12:34
 {INFO} - [com.revature.main.Main] -    4) Exit     -  May-04-21 Tuesday MDT 03:12:34
 {INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-04-21 Tuesday MDT 03:12:37
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    4) Exit     -  May-04-21 Tuesday MDT 08:49:47
+{INFO} - [com.revature.main.Main] -    under construction     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    4) Exit     -  May-04-21 Tuesday MDT 08:49:50
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.Main] -    4) Exit     -  May-04-21 Tuesday MDT 08:52:05
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Enter username:      -  May-04-21 Tuesday MDT 08:52:07
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 08:53:09
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Employee [firstName=john, lastName=jonhy, employee_id=0, username=john111, password=john111, manager_id=1, employee_type=2]     -  May-04-21 Tuesday MDT 08:53:12
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    
+Menu     -  May-04-21 Tuesday MDT 08:53:12
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    1) Make a new employee account     -  May-04-21 Tuesday MDT 08:53:12
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    2) Delete employee account     -  May-04-21 Tuesday MDT 08:53:12
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    3) View Sales History     -  May-04-21 Tuesday MDT 08:53:12
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    4) Exit     -  May-04-21 Tuesday MDT 08:53:12
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Enter first name:      -  May-04-21 Tuesday MDT 08:53:30
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Enter last name:      -  May-04-21 Tuesday MDT 08:53:42
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Enter username name:      -  May-04-21 Tuesday MDT 08:53:44
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 08:53:51
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    
+Menu     -  May-04-21 Tuesday MDT 08:53:55
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    1) Make a new employee account     -  May-04-21 Tuesday MDT 08:53:55
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    2) Delete employee account     -  May-04-21 Tuesday MDT 08:53:55
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    3) View Sales History     -  May-04-21 Tuesday MDT 08:53:55
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    4) Exit     -  May-04-21 Tuesday MDT 08:53:55
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Enter employee id:      -  May-04-21 Tuesday MDT 08:58:41
+{INFO} - [com.revature.main.menu.ManagerMenu] -    Employee deleted succesfully     -  May-04-21 Tuesday MDT 08:58:44
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    
+Menu     -  May-04-21 Tuesday MDT 08:58:44
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    1) Make a new employee account     -  May-04-21 Tuesday MDT 08:58:44
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    2) Delete employee account     -  May-04-21 Tuesday MDT 08:58:44
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    3) View Sales History     -  May-04-21 Tuesday MDT 08:58:44
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    4) Exit     -  May-04-21 Tuesday MDT 08:58:44
+{INFO} - [com.revature.main.menu.ManagerMenu] -    SaleRecord [saleAmount=0.0, timestamp=2021-05-03 21:56:27.0, rock_id=0, customer_id=3, sale_id=1]     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.main.menu.ManagerMenu] -    SaleRecord [saleAmount=0.0, timestamp=2021-05-03 22:09:11.0, rock_id=0, customer_id=3, sale_id=2]     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.main.menu.ManagerMenu] -    SaleRecord [saleAmount=0.0, timestamp=2021-05-03 22:12:05.0, rock_id=2, customer_id=3, sale_id=3]     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    
+Menu     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    1) Make a new employee account     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    2) Delete employee account     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    3) View Sales History     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.manager.dao.impl.ManagerCRUDDAOImpl] -    4) Exit     -  May-04-21 Tuesday MDT 08:58:54
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 08:59:12
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 08:59:12
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 08:59:12
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 08:59:12
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 08:59:12
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 08:59:12
+{INFO} - [com.revature.main.Main] -    4) Exit     -  May-04-21 Tuesday MDT 08:59:12
+{INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-04-21 Tuesday MDT 08:59:16
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 21:27:12
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter first name:      -  May-04-21 Tuesday MDT 21:27:15
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter last name:      -  May-04-21 Tuesday MDT 21:27:19
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username name:      -  May-04-21 Tuesday MDT 21:27:25
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 21:27:29
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter email:      -  May-04-21 Tuesday MDT 21:27:31
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter phoneNumber:      -  May-04-21 Tuesday MDT 21:27:44
+{INFO} - [com.revature.customer.dao.impl.CustomerCRUDDAOImpl] -    Internal error     -  May-04-21 Tuesday MDT 21:27:48
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Unable to register new customer     -  May-04-21 Tuesday MDT 21:27:48
+{INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-04-21 Tuesday MDT 21:27:48
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 21:28:51
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter first name:      -  May-04-21 Tuesday MDT 21:28:53
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter last name:      -  May-04-21 Tuesday MDT 21:28:56
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username name:      -  May-04-21 Tuesday MDT 21:28:59
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 21:29:03
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter email:      -  May-04-21 Tuesday MDT 21:29:05
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter phoneNumber:      -  May-04-21 Tuesday MDT 21:29:11
+{INFO} - [com.revature.customer.dao.impl.CustomerCRUDDAOImpl] -    Internal error     -  May-04-21 Tuesday MDT 21:29:14
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Unable to register new customer     -  May-04-21 Tuesday MDT 21:29:14
+{INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-04-21 Tuesday MDT 21:29:14
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 21:30:06
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter first name:      -  May-04-21 Tuesday MDT 21:30:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter last name:      -  May-04-21 Tuesday MDT 21:30:09
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username name:      -  May-04-21 Tuesday MDT 21:30:12
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 21:30:15
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter email:      -  May-04-21 Tuesday MDT 21:30:18
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter phoneNumber:      -  May-04-21 Tuesday MDT 21:30:24
+{INFO} - [com.revature.customer.dao.impl.CustomerCRUDDAOImpl] -    Internal error     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Unable to register new customer     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 21:30:26
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-04-21 Tuesday MDT 21:34:40
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Unable to retrieve the customer from database     -  May-04-21 Tuesday MDT 21:34:44
+{WARN} - [com.revature.main.menu.CustomerMenu] -    Entered User name and password do not match our records     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 21:34:44
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter first name:      -  May-04-21 Tuesday MDT 21:34:50
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter last name:      -  May-04-21 Tuesday MDT 21:34:53
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username name:      -  May-04-21 Tuesday MDT 21:34:54
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 21:34:56
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter email:      -  May-04-21 Tuesday MDT 21:34:57
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter phoneNumber:      -  May-04-21 Tuesday MDT 21:35:02
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 21:35:06
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter first name:      -  May-04-21 Tuesday MDT 21:35:48
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter last name:      -  May-04-21 Tuesday MDT 21:35:50
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username name:      -  May-04-21 Tuesday MDT 21:35:52
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 21:35:55
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter email:      -  May-04-21 Tuesday MDT 21:36:00
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter phoneNumber:      -  May-04-21 Tuesday MDT 21:36:06
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 21:36:08
+{INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-04-21 Tuesday MDT 21:37:05
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 22:53:55
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter first name:      -  May-04-21 Tuesday MDT 22:53:58
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter last name:      -  May-04-21 Tuesday MDT 22:54:01
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username name:      -  May-04-21 Tuesday MDT 22:54:02
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 22:54:04
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter email:      -  May-04-21 Tuesday MDT 22:54:05
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter phoneNumber:      -  May-04-21 Tuesday MDT 22:54:10
+{INFO} - [com.revature.customer.service.impl.CustomerCRUDServiceImpl] -    New customer registered succesfully     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 22:54:15
+{INFO} - [com.revature.customer.dao.impl.CustomerCRUDDAOImpl] -    1     -  May-04-21 Tuesday MDT 22:57:44
+{INFO} - [com.revature.main.Main] -    Welcome to the Rough Around the Edges Rock store     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    ========================================     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 23:00:46
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter username:      -  May-04-21 Tuesday MDT 23:00:48
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter password:      -  May-04-21 Tuesday MDT 23:01:00
+{INFO} - [com.revature.customer.service.impl.CustomerSearchServiceImpl] -    Loggin succesful     -  May-04-21 Tuesday MDT 23:01:03
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Customer [firstName=alex, lastName=johnson, email=aliv@mail.com, phoneNumber=7201112222, customer_id=1, username=alex111, password=alex111, balance=112.53999999999999]     -  May-04-21 Tuesday MDT 23:01:03
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-04-21 Tuesday MDT 23:01:03
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-04-21 Tuesday MDT 23:01:03
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-04-21 Tuesday MDT 23:01:03
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-04-21 Tuesday MDT 23:01:03
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-04-21 Tuesday MDT 23:01:03
+{INFO} - [com.revature.main.menu.CustomerMenu] -    1) a diamond of weight 44.0 grams with a price of 500.0     -  May-04-21 Tuesday MDT 23:01:05
+{INFO} - [com.revature.main.menu.CustomerMenu] -    2) a quarts of weight 33.0 grams with a price of 400.0     -  May-04-21 Tuesday MDT 23:01:05
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Select an item or press 9 to exit     -  May-04-21 Tuesday MDT 23:01:05
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Rock [type=diamond, weight=44.0, price=500.0, rock_id=3, status=1]     -  May-04-21 Tuesday MDT 23:01:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Rock [type=diamond, weight=44.0, price=500.0, rock_id=3, status=1]     -  May-04-21 Tuesday MDT 23:01:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    
+Would you like to make an offer?     -  May-04-21 Tuesday MDT 23:01:08
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-04-21 Tuesday MDT 23:01:08
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) Make an offer     -  May-04-21 Tuesday MDT 23:01:08
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) Exit     -  May-04-21 Tuesday MDT 23:01:08
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Enter offer amount     -  May-04-21 Tuesday MDT 23:01:11
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    
+Menu     -  May-04-21 Tuesday MDT 23:01:15
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    1) View available rock specimens for sale     -  May-04-21 Tuesday MDT 23:01:15
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    2) View owned rock specimens     -  May-04-21 Tuesday MDT 23:01:15
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    3) View balance     -  May-04-21 Tuesday MDT 23:01:15
+{INFO} - [com.revature.main.menu.CustomerPrintMenu] -    4) Exit     -  May-04-21 Tuesday MDT 23:01:15
+{INFO} - [com.revature.main.menu.CustomerMenu] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    User MENU     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    ------------------     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    Are you a employee or customer?     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    1) Customer     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    2) Employee     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    3) Manager     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    4) Register new Customer     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    5) Exit     -  May-04-21 Tuesday MDT 23:01:20
+{INFO} - [com.revature.main.Main] -    Thank you for vising our store, Hope you to see you again in the future!     -  May-04-21 Tuesday MDT 23:01:22

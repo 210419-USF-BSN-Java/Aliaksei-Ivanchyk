@@ -14,6 +14,7 @@ import com.revature.customer.service.impl.CustomerCRUDServiceImpl;
 import com.revature.customer.service.impl.CustomerSearchServiceImpl;
 import com.revature.exception.BusinessException;
 import com.revature.model.Customer;
+import com.revature.model.Employee;
 import com.revature.model.Offer;
 import com.revature.model.Rock;
 import com.revature.scanner.Input;
@@ -251,6 +252,29 @@ public class CustomerMenu {
 		for (int i = 0; i < rocks.size(); i++) {
 			Log.info((i + 1) + ") a " + rocks.get(i).getType() + " of weight " + rocks.get(i).getWeight() 
 					+ " grams with a price of " + rocks.get(i).getPrice());
+		}
+	}
+
+	public void registerNewCustomer() {
+		Customer customer = new Customer();
+		Log.info("Enter first name: ");
+		customer.setFirstName(scanner.nextLine());
+		Log.info("Enter last name: ");
+		customer.setLastName(scanner.nextLine());
+		Log.info("Enter username name: ");
+		customer.setUsername(scanner.nextLine());
+		Log.info("Enter password: ");
+		customer.setPassword(scanner.nextLine());
+		Log.info("Enter email: ");
+		customer.setEmail(scanner.nextLine());
+		Log.info("Enter phoneNumber: ");
+		customer.setPhoneNumber(scanner.nextLine());
+		customer.setBalance(0);
+		try {
+			ccs.registerNewCustomer(customer);
+		} catch (BusinessException e) {
+			Log.info("Unable to register new customer");
+			e.printStackTrace();
 		}
 	}
 	

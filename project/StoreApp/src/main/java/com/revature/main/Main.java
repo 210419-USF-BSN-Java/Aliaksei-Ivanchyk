@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import com.revature.exception.BusinessException;
 import com.revature.main.menu.CustomerMenu;
 import com.revature.main.menu.EmployeeMenu;
+import com.revature.main.menu.ManagerMenu;
 import com.revature.scanner.Input;
 
 
@@ -14,6 +15,7 @@ public class Main {
 	private static Logger Log = Logger.getLogger(Main.class);
 	private static CustomerMenu cm = new CustomerMenu();
 	private static EmployeeMenu em = new EmployeeMenu();
+	private static ManagerMenu mm = new ManagerMenu();
 	
 	public static void main(String[] args) {
 		
@@ -49,9 +51,13 @@ public class Main {
 				break;
 				
 			case 3:
-				Log.info("under construction");
+				mm.logIn();
 				break;
+				
 			case 4:
+				cm.registerNewCustomer();
+				break;
+			case 5:
 				Log.info("Thank you for vising our store," + " Hope you to see you again in the future!");
 				break;
 				
@@ -61,7 +67,7 @@ public class Main {
 			}
 			
 			
-		} while (ch != 4);
+		} while (ch != 5);
 
 	}
 	
@@ -73,7 +79,8 @@ public class Main {
 		Log.info("1) Customer");
 		Log.info("2) Employee");
 		Log.info("3) Manager");
-		Log.info("4) Exit");
+		Log.info("4) Register new Customer");
+		Log.info("5) Exit");
 	}
 }
 

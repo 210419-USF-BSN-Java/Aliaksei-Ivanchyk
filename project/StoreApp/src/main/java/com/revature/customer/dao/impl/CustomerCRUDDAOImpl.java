@@ -20,11 +20,6 @@ import com.revature.model.Rock;
 public class CustomerCRUDDAOImpl implements CustomerCRUDDAO {
 	private static Logger Log = Logger.getLogger(CustomerCRUDDAOImpl.class);
 	
-	@Override
-	public Customer registerCustomer(Customer customer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 	@Override
 	public int updateBalance(double newbalance, int customer_id) throws BusinessException {
@@ -100,6 +95,29 @@ public class CustomerCRUDDAOImpl implements CustomerCRUDDAO {
 			preparedStatement.setInt(2, customer_id);
 			c=preparedStatement.executeUpdate();
 		} catch (ClassNotFoundException | SQLException e) {
+			Log.info("Internal error");
+			throw new BusinessException("Internal error occured... Please contact SYSSADMIN");
+		}
+		return c;
+	}
+
+	@Override
+	public int registerNewCustomer(Customer customer) throws BusinessException {
+		int c = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "insert into store.customers(firstname, lastname, usernames, passwords, email, phonenumber, balance)" + " values(?,?,?,?,?,?,?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customer.getFirstName());
+			preparedStatement.setString(2, customer.getLastName());
+			preparedStatement.setString(3, customer.getUsername());
+			preparedStatement.setString(4, customer.getPassword());
+			preparedStatement.setString(5, customer.getEmail());
+			preparedStatement.setString(6, customer.getPhoneNumber());
+			preparedStatement.setDouble(7, 0);
+
+			c = preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
 			Log.info("Internal error");
 			throw new BusinessException("Internal error occured... Please contact SYSSADMIN");
 		}
