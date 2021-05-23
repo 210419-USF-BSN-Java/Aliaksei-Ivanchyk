@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+	height: 100%
+}
+
+body {
+	background-image: url("static/img/bg-masthead.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin: 0px;
+}
+
+h1 {
+	margin-top: 5%;
+	margin-left: 0%;
+	margin-right: 10%;
+	color: #111155;
+	/* background-color: #ffffffaa; */
+	padding: 5% 5% 5% 10%;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.center {
+	margin: auto;
+	width: 60%;
+	/* border: 5px solid #FFFF00; */
+	padding: 10px;
+}
+
+img {
+	margin-top: 10%;
+	margin-left: 10%;
+	max-width: 50%;
+}
+
+p {
+	margin-top: 15%;
+	margin-left: 10%;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+a {
+	padding: 5px 20px 5px;
+	text-decoration: none;
+	border: 2px solid rgb(70, 158, 180);
+	background-color: rgb(158, 70, 180);
+	color: white;
+	border-radius: 3px;
+}
+</style>
+</head>
+
+<body >
+
+
+	<div class="center" >
+		<h1 style ="color:purple">Welcome to the Employee Reimbursement System (ERS)</h1>		
+		<button id="loginindex" class="btn btn-danger" type = "submit">Enter</button>
+		<script> 
+		document.getElementById("loginindex").addEventListener("click", forwardpage);
+		
+		function forwardpage(){
+			window.location.href="http://localhost:8080/ProjectOne/login"
+		}
+		</script>
+
+	</div>
+
+</body>
+</html>

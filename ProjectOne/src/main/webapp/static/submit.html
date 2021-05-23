@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<title>ERS</title>
+	<style>
+		.nav-link {
+			font-family: cursive;
+			background-color: #f44336;
+			color: white;
+			padding: 14px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		body {
+			background-image: url("img/bg-masthead.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			margin: 0px;
+		}
+
+		input[type=checkbox] {
+			width: 50px;
+		}
+
+		label {
+			font-size: medium;
+
+		}
+
+
+		input:invalid {
+			background-color: lightgray;
+		}
+	</style>
+
+</head>
+
+
+<body>
+
+	<h1>We are submitting a ticket <h1>
+			<a class="nav-link" href="/ProjectOne/employee"">Employee Home</a>
+		<br><br>
+	<form>
+		<div>
+			<input = " number" id="amount" placeholder="Amount" required>
+				</div>
+				<br>
+				<div>
+					<textarea input="text" rows="5" cols="50" id="description"
+						placeholder="example: diner with client" required></textarea>
+				</div>
+				<br>
+				<input type="radio" name="type" id='radio'">
+				<label for="Lodging">Lodging</label>
+				<br>
+				<input type="radio" name="type" id='radio'>
+				<label for="TRAVEL">Travel</label>
+				<br>
+				<input type="radio" name="type" id='radio'>
+				<label for="FOOD">Food</label>
+				<br>
+				<input type="radio" name="type" id='radio'>
+				<label for="OTHER">Other</label>
+				<br><br>
+				<input type="file" name="file select" value="Select File", id="file">
+				<br><br>
+				
+				<button id = "submit" class="btn-danger" type="submit">Submit Reimbursement Request</button>
+				<br><br>
+
+				</form>
+				
+				<script src="submit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<title>Employee</title>
+
+	<style>
+		.nav-link {
+			font-family: cursive;
+			background-color: violet;
+			color: lightblue;
+			padding: 14px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		body {
+			background-image: url("img/bg-masthead.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			margin: 0px;
+		}
+
+		input[type=checkbox] {
+			width: 50px;
+		}
+
+		label {
+			font-size: medium;
+
+		}
+
+
+		input:invalid {
+			background-color: lightgray;
+		}
+
+		h1.intro {
+			color: blue;
+			text-align: center;
+		}
+
+		.important {
+			background-color: yellow;
+		}
+
+		th,
+		td {
+			padding: 15px;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand">ERS</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/ProjectOne/employee">Home </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/login">Log out</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<h1> Pending Reimbursements:</h1>
+	</div>
+
+	<br>
+	<div>
+
+		<table id="reimsTable" class="form-control mb-1">
+			<tr>
+				<th>Request ID</th>
+				<th>Amount</th>
+				<th>Submit Time</th>
+				<th>Description</th>
+				<th>Employee ID</th>
+				<th>Reimbursement Type</th>
+			</tr>
+
+		</table>
+
+	</div>
+
+	</div>
+
+
+	</div>
+	<script src="pendingreim.js"></script>
+</body>
+
+</html>
