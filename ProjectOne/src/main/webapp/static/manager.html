@@ -1,10 +1,9 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="static/css/style.css" />
-	
+
 	<style>
-	html  {
+		html {
 			height: 100%
 		}
 
@@ -53,31 +52,39 @@
 
 
 <body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
 		</button>
-	  
+
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		  <ul class="navbar-nav mr-auto">
-			<li class="nav-item">
-			  <a class="nav-link" href="/login">Log out</a>
-			</li>
-		  </ul>
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<button id="logout"  class="btn btn-danger" type="submit">Log out</button>
+				</li>
+			</ul>
 		</div>
-	  </nav>
+	</nav>
 	<div class="container">
-	
+
 		<h1>Manager home page <h1>
-				<a class="nav-link" href="/ProjectOne/viewallpendingreimbursements">View all pending reimbursement requests</a>
+				<a class="nav-link" href="/ProjectOne/reviewrequest">Aprrove/Reject Requests</a>
 				<br><br><br>
-				<a class="nav-link" href="/ProjectOne/viewallresolvedreimbursements">View all resolved reimbursement requests  </a>
+				<a class="nav-link" href="/ProjectOne/viewallpendingreim">View all pending reimbursement
+					requests</a>
+				<br><br><br>
+				<a class="nav-link" href="/ProjectOne/viewallresolvedreim">View all resolved reimbursement
+					requests </a>
 				<br><br><br>
 				<a class="nav-link" href="/ProjectOne/allemployees">View all employees </a>
 				<br><br><br>
-				<a class="nav-link" href="/ProjectOne/reimbursementbyemployee">View Reimbursement requests by Employee</a>
+				<a class="nav-link" href="/ProjectOne/reimbyemployee">View Reimbursement requests by
+					Employee</a>
 				<br>
 	</div>
+	
+	<script src="manager.js"></script>
 
 </body>
 

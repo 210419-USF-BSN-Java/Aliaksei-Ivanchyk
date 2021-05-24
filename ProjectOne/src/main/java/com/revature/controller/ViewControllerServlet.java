@@ -26,37 +26,50 @@ public class ViewControllerServlet extends DefaultServlet {
 				request.setAttribute("path", uriString.substring(uriString.indexOf("/") + 1));
 				uriString.replace(uriString.indexOf("/"), uriString.length(), "");
 			}
+			
+			System.out.println("inside view servlet");
+			System.out.println(uriString.toString());
 
 			switch (uriString.toString()) {
 			case "login":
-//				getServletContext().getRequestDispatcher("/static/login.html").forward(request, response);
-//				request.getRequestDispatcher("/static/login.html").forward(request, response);
 				response.sendRedirect("static/login.html");
-
 				break;
 			case "employee":
-//				getServletContext().getRequestDispatcher("/static/Employee.html").forward(request, response);
 				response.sendRedirect("static/Employee.html");
-//				request.getRequestDispatcher("/static/employee.html").include(request, response);
 				break;
 			case "submit":
-//				getServletContext().getRequestDispatcher("/static/submit.html").forward(request, response);
 				response.sendRedirect("static/submit.html");
 				break;
 			case "pendingreim":
-//				getServletContext().getRequestDispatcher("/static/pendingreim.html").forward(request, response);
 				response.sendRedirect("static/pendingreim.html");
 				break;
 			case "resolvedreim":
-//				getServletContext().getRequestDispatcher("/static/resolvedreim.html").forward(request, response);
 				response.sendRedirect("static/resolvedreim.html");
 				break;
+			case "updateinfo":
+				response.sendRedirect("static/updateInfo.html");
+				break;
 			case "manager":
-//				getServletContext().getRequestDispatcher("/static/manager.html").forward(request, response);
 				response.sendRedirect("static/manager.html");
+				break;
+			case "viewallpendingreim":
+				response.sendRedirect("static/viewallpendingreim.html");
+				break;
+			case "viewallresolvedreim":
+				response.sendRedirect("static/viewallresolvedreim.html");
+				break;
+			case "reviewrequest":
+				response.sendRedirect("static/reviewrequest.html");
+				break;
+			case "allemployees":
+				response.sendRedirect("static/allemployees.html");
+				break;
+			case "reimbyemployee":
+				response.sendRedirect("static/viewreimbyemployee.html");
 				break;
 			default:
 				response.sendError(404, "Path not supported");
+				break;
 			}
 
 		}

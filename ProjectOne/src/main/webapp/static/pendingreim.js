@@ -14,7 +14,7 @@ function viewPending(){
 			let content = document.getElementById("reimsTable");
 			
 			for(i = 0; i < jsonList.length; i++){
-				let request = "<td>" + jsonList[i].reim_id + "</td><td>" + jsonList[i].amount + "</td><td>" + jsonList[i].submitDate + "</td><td>" + jsonList[i].description + "</td><td>" + jsonList[i].manager_id + "</td><td>" + jsonList[i].type + "</td>";
+				let request = "<td>" + jsonList[i].reim_id + "</td><td>" + jsonList[i].amount + "</td><td>" + jsonList[i].submitDate + "</td><td>" + jsonList[i].description + "</td><td>" + jsonList[i].user_id + "</td><td>" + jsonList[i].type + "</td>";
 				content.insertAdjacentHTML('beforeend', request);
 			}
 		} 

@@ -19,9 +19,29 @@
 		<servlet-class>com.revature.controller.ResolvedReimServlet</servlet-class>
 	</servlet>
 	
+		<servlet>
+		<servlet-name>ViewAllResolvedReimServlet</servlet-name>
+		<servlet-class>com.revature.controller.ViewAllResolvedReimServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ViewAllPendingReimServlet</servlet-name>
+		<servlet-class>com.revature.controller.ViewAllPendingReimServlet</servlet-class>
+	</servlet>
+	
 	<servlet>
 		<servlet-name>PendingReimServlet</servlet-name>
 		<servlet-class>com.revature.controller.PendingReimServlet</servlet-class>
+	</servlet>
+	
+		<servlet>
+		<servlet-name>SetInfoServlet</servlet-name>
+		<servlet-class>com.revature.controller.SetInfoServlet</servlet-class>
+	</servlet>
+	
+			<servlet>
+		<servlet-name>UpdateInfoServlet</servlet-name>
+		<servlet-class>com.revature.controller.UpdateInfoServlet</servlet-class>
 	</servlet>
 
 	<servlet>
@@ -30,13 +50,33 @@
 	</servlet>
 
 	<servlet-mapping>
+		<servlet-name>SetInfoServlet</servlet-name>
+		<url-pattern>/sgetinfo</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>UpdateInfoServlet</servlet-name>
+		<url-pattern>/supdateInfo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
 		<servlet-name>PendingReimServlet</servlet-name>
 		<url-pattern>/spendingreim</url-pattern>
 	</servlet-mapping>
 	
 		<servlet-mapping>
+		<servlet-name>ViewAllPendingReimServlet</servlet-name>
+		<url-pattern>/sviewallpendingreim</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
 		<servlet-name>ResolvedReimServlet</servlet-name>
 		<url-pattern>/sresolvedreim</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViewAllResolvedReimServlet</servlet-name>
+		<url-pattern>/sviewallresolvedreim</url-pattern>
 	</servlet-mapping>
 	
 	<servlet-mapping>
@@ -48,10 +88,12 @@
 		<servlet-name>SubmitServlet</servlet-name>
 		<url-pattern>/ssubmit</url-pattern>
 	</servlet-mapping>
+	
 	<servlet-mapping>
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
+	
 	<servlet-mapping>
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/employee</url-pattern>
@@ -61,10 +103,27 @@
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/submit</url-pattern>
 	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViewControllerServlet</servlet-name>
+		<url-pattern>/viewallresolvedreim</url-pattern>
+	</servlet-mapping>
+	
 	<servlet-mapping>
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/pendingreim</url-pattern>
 	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViewControllerServlet</servlet-name>
+		<url-pattern>/updateinfo</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViewControllerServlet</servlet-name>
+		<url-pattern>/viewallpendingreim</url-pattern>
+	</servlet-mapping>
+	
 	<servlet-mapping>
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/resolvedreim</url-pattern>

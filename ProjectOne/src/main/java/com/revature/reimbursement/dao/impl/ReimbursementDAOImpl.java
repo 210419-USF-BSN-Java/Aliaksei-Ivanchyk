@@ -101,6 +101,7 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 					rb.setType(resultSet.getString("type"));
 					rb.setManager_id(resultSet.getInt("manager_id"));
 					rb.setReim_id(resultSet.getInt("reim_id"));
+					rb.setUser_id(resultSet.getInt("user_id"));
 				
 					rbs.add(rb);
 				}
@@ -125,8 +126,15 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 					Reimbursement rb = new Reimbursement();
 					rb.setAmount(resultSet.getDouble("amount"));
 					rb.setDescription(resultSet.getString("description"));
-//					rb.setSubmitDate(resultSet.getTimestamp("date"));
+					Timestamp timeStampObj = resultSet.getTimestamp("submitdate");
+					rb.setSubmitDate(timeStampObj.toString());
+					Timestamp timeStampObj1 = resultSet.getTimestamp("resolveddate");
+					rb.setResolveDate(timeStampObj1.toString());
 					rb.setStatus(resultSet.getInt("status"));
+					rb.setType(resultSet.getString("type"));
+					rb.setManager_id(resultSet.getInt("manager_id"));
+					rb.setReim_id(resultSet.getInt("reim_id"));
+					rb.setUser_id(resultSet.getInt("user_id"));
 				
 					rbs.add(rb);
 				}
@@ -140,6 +148,7 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 
 	@Override
 	public List<Reimbursement> getAllPendingReiumbursementRequests() throws BusinessException {
+		System.out.println("inside getAllPendingReiumbursementRequests dao");
 		List<Reimbursement> rbs = new ArrayList<>();
 		try (Connection connection = PostgresConnection.getConnection()) {
 			String sql = "select *  from company.reimbursements ";
@@ -151,9 +160,12 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 					Reimbursement rb = new Reimbursement();
 					rb.setAmount(resultSet.getDouble("amount"));
 					rb.setDescription(resultSet.getString("description"));
-//					rb.setSubmitDate(resultSet.getTimestamp("date"));
+					Timestamp timeStampObj = resultSet.getTimestamp("submitdate");
+					rb.setSubmitDate(timeStampObj.toString());
 					rb.setStatus(resultSet.getInt("status"));
+					rb.setType(resultSet.getString("type"));
 					rb.setReim_id(resultSet.getInt("reim_id"));
+					rb.setUser_id(resultSet.getInt("user_id"));
 				
 					rbs.add(rb);
 				}

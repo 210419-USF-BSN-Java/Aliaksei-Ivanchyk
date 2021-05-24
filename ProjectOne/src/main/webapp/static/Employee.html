@@ -1,9 +1,9 @@
 <html>
 
 <head>
-	
+
 	<style>
-	html  {
+		html {
 			height: 100%
 		}
 
@@ -47,6 +47,17 @@
 			margin-left: 10%;
 			max-width: 50%;
 		}
+		
+		.button {
+  background-color:lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 	</style>
 </head>
 
@@ -58,14 +69,17 @@
 				<br><br><br>
 				<a class="nav-link" href="/ProjectOne/submit">Submit a ticket</a>
 				<br><br><br>
-				<a class="nav-link" href="/ProjectOne/pendingreim">View Pending Reimbursements  </a>
+				<a class="nav-link" href="/ProjectOne/pendingreim">View Pending Reimbursements </a>
 				<br><br><br>
-				<a class="nav-link" href="/ProjectOne/resolvedreim">View Resolved Reimbursements  </a>
+				<a class="nav-link" href="/ProjectOne/resolvedreim">View Resolved Reimbursements </a>
 				<br><br><br>
 				<a class="nav-link" href="/ProjectOne/updateinfo">Update Employee Information</a>
-				<br>
-	</div>
+				<br><br><br><br><br>
 
+
+				<button id="logout"  class="btn btn-danger" type="submit">Log out</button>
+	</div>
+	<script src="employee.js"></script>
 </body>
 
 </html>
