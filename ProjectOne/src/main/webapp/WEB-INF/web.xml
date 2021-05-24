@@ -40,14 +40,29 @@
 	</servlet>
 	
 			<servlet>
+		<servlet-name>EmployeeHistoryServlet</servlet-name>
+		<servlet-class>com.revature.controller.EmployeeHistoryServlet</servlet-class>
+	</servlet>
+	
+			<servlet>
 		<servlet-name>UpdateInfoServlet</servlet-name>
 		<servlet-class>com.revature.controller.UpdateInfoServlet</servlet-class>
+	</servlet>
+	
+				<servlet>
+		<servlet-name>ViewEmployeesServlet</servlet-name>
+		<servlet-class>com.revature.controller.ViewEmployeesServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<servlet-class>com.revature.controller.ViewControllerServlet</servlet-class>
 	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>ViewEmployeesServlet</servlet-name>
+		<url-pattern>/sallemployees</url-pattern>
+	</servlet-mapping>
 
 	<servlet-mapping>
 		<servlet-name>SetInfoServlet</servlet-name>
@@ -62,6 +77,11 @@
 	<servlet-mapping>
 		<servlet-name>PendingReimServlet</servlet-name>
 		<url-pattern>/spendingreim</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>EmployeeHistoryServlet</servlet-name>
+		<url-pattern>/semployeehistory</url-pattern>
 	</servlet-mapping>
 	
 		<servlet-mapping>
@@ -98,10 +118,20 @@
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/employee</url-pattern>
 	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViewControllerServlet</servlet-name>
+		<url-pattern>/reviewrequest</url-pattern>
+	</servlet-mapping>
 
 	<servlet-mapping>
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/submit</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViewControllerServlet</servlet-name>
+		<url-pattern>/allemployees</url-pattern>
 	</servlet-mapping>
 	
 		<servlet-mapping>
@@ -131,6 +161,11 @@
 	<servlet-mapping>
 		<servlet-name>ViewControllerServlet</servlet-name>
 		<url-pattern>/manager</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>ViewControllerServlet</servlet-name>
+		<url-pattern>/reimbyemployee</url-pattern>
 	</servlet-mapping>
 
 

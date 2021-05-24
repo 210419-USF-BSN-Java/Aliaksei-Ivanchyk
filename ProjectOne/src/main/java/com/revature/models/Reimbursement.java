@@ -1,7 +1,5 @@
 package com.revature.models;
 
-import java.sql.Timestamp;
-
 public class Reimbursement {
 	int user_id;
 	int reim_id;

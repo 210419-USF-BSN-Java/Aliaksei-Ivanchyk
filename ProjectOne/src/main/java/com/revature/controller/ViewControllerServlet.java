@@ -59,13 +59,13 @@ public class ViewControllerServlet extends DefaultServlet {
 				response.sendRedirect("static/viewallresolvedreim.html");
 				break;
 			case "reviewrequest":
-				response.sendRedirect("static/reviewrequest.html");
-				break;
-			case "allemployees":
-				response.sendRedirect("static/allemployees.html");
+				response.sendRedirect("static/request.html");
 				break;
 			case "reimbyemployee":
-				response.sendRedirect("static/viewreimbyemployee.html");
+				response.sendRedirect("static/viewemployeehistory.html");
+				break;
+			case "allemployees":
+				response.sendRedirect("static/viewallEmployees.html");
 				break;
 			default:
 				response.sendError(404, "Path not supported");
