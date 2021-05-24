@@ -7,14 +7,19 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.exception.BusinessException;
 import com.revature.manager.dao.ManagerDAO;
 import com.revature.manager.dao.impl.ManagerDAOImpl;
 import com.revature.models.Reimbursement;
+import com.revature.reimbursement.service.impl.ReimbursementServiceImpl;
 
 public class EmployeeHistoryServlet extends HttpServlet {
+	private static Logger Log = Logger.getLogger(EmployeeHistoryServlet.class);
 	ManagerDAO md = new ManagerDAOImpl();
 	ObjectMapper mapper = new ObjectMapper();
 	private int managerID;
@@ -30,8 +35,8 @@ public class EmployeeHistoryServlet extends HttpServlet {
 		}
 		
 		String id = request.getParameter("employeeID");
-		System.out.println(id);
-		System.out.println(managerID);
+		Log.info(id);
+		Log.info(managerID);
 		int employeeID = Integer.parseInt(request.getHeader("employeeID"));
 		
 		List<Reimbursement> requestlist = null;

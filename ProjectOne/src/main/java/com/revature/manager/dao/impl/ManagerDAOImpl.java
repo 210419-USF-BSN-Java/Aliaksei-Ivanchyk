@@ -8,6 +8,8 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import com.revature.dao.dbutil.PostgresConnection;
 import com.revature.exception.BusinessException;
 import com.revature.manager.dao.ManagerDAO;
@@ -15,6 +17,7 @@ import com.revature.models.Employee;
 import com.revature.models.Reimbursement;
 
 public class ManagerDAOImpl implements ManagerDAO {
+	private static Logger Log = Logger.getLogger(ManagerDAOImpl.class);
 
 	@Override
 	public List<Employee> getAllEmployees() throws BusinessException {

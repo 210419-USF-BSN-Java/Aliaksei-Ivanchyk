@@ -8,14 +8,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.exception.BusinessException;
+import com.revature.manager.dao.impl.ManagerDAOImpl;
 import com.revature.models.Reimbursement;
 import com.revature.reimbursement.dao.ReimbursementDAO;
 import com.revature.reimbursement.dao.impl.ReimbursementDAOImpl;
 
 public class ViewAllPendingReimServlet  extends HttpServlet {
+	private static Logger Log = Logger.getLogger(ManagerDAOImpl.class);
+
 	
 	ReimbursementDAO rd = new ReimbursementDAOImpl();
 	ObjectMapper mapper = new ObjectMapper();

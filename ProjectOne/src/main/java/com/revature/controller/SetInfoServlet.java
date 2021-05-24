@@ -7,14 +7,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.employee.dao.EmployeeDAO;
 import com.revature.employee.dao.impl.EmployeeDAOImpl;
 import com.revature.exception.BusinessException;
+import com.revature.manager.dao.impl.ManagerDAOImpl;
 import com.revature.models.Employee;
 
 public class SetInfoServlet extends HttpServlet {
+	private static Logger Log = Logger.getLogger(SetInfoServlet.class);
 	/**
 	 * 
 	 */
@@ -26,6 +30,7 @@ public class SetInfoServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
+		Log.info("inside setInfo servlet");
 		
 		System.out.println("inside set info servlet ");
 

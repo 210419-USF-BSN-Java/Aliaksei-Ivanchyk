@@ -7,18 +7,24 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 import com.revature.exception.BusinessException;
+import com.revature.manager.dao.impl.ManagerDAOImpl;
 import com.revature.models.Reimbursement;
 import com.revature.reimbursement.service.ReimbursementService;
 import com.revature.reimbursement.service.impl.ReimbursementServiceImpl;
 
 public class SubmitServlet extends HttpServlet {
+	private static Logger Log = Logger.getLogger(ManagerDAOImpl.class);
+
 	private ReimbursementService rs = new ReimbursementServiceImpl();
 	private int user_id;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
-		System.out.println("inside submit servlet");
+		Log.info("inside submit servlet");
+//		System.out.println("inside submit servlet");
 		String token = request.getHeader("Authorization");
 
 		if (token != null) {
