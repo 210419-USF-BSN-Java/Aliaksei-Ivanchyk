@@ -9,7 +9,7 @@ import com.revature.models.Reimbursement;
 public interface ManagerDAO {
 	public List<Employee> getAllEmployees() throws BusinessException;
 	public List<Reimbursement> getReimByEmployee(int employee_id) throws BusinessException;
-	public int updateReim(int reim_id, int status) throws BusinessException;
+	public int updateReim(int reim_id, int status, int managerID) throws BusinessException;
 	
 
 }

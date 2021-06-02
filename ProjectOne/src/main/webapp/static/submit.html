@@ -50,30 +50,27 @@
 				</div>
 				<br>
 				<div>
-					<textarea input="text" rows="5" cols="50" id="description"
-						placeholder="example: diner with client" required></textarea>
+					<textarea input="text" rows="5" cols="50" id="description" placeholder="example: diner with client"
+						required></textarea>
 				</div>
 				<br>
-				<input type="radio" name="type" id='radio'">
-				<label for="Lodging">Lodging</label>
-				<br>
-				<input type="radio" name="type" id='radio'>
-				<label for="TRAVEL">Travel</label>
-				<br>
-				<input type="radio" name="type" id='radio'>
-				<label for="FOOD">Food</label>
-				<br>
-				<input type="radio" name="type" id='radio'>
-				<label for="OTHER">Other</label>
+				 <label>Expense type: </label>
+				 <br><br>
+				<select id="type" class="form-control mb-3">
+					<option> Lodging </option>
+					<option> Travel </option>
+					<option> Food </option>
+					<option> Other </option>
+				</select>
 				<br><br>
-				<input type="file" name="file select" value="Select File", id="file">
+				<input type="file" name="file select" value="Select File" , id="file">
 				<br><br>
-				
-				<button id = "submit" class="btn-danger" type="submit">Submit Reimbursement Request</button>
+
+				<button id="submit" class="btn-danger" type="submit">Submit Reimbursement Request</button>
 				<br><br>
 
 				</form>
-				
+
 				<script src="submit.js"></script>
 </body>
 

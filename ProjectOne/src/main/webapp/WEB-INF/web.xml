@@ -15,6 +15,11 @@
 	</servlet>
 	
 	<servlet>
+		<servlet-name>RequestServlet</servlet-name>
+		<servlet-class>com.revature.controller.RequestServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
 		<servlet-name>ResolvedReimServlet</servlet-name>
 		<servlet-class>com.revature.controller.ResolvedReimServlet</servlet-class>
 	</servlet>
@@ -44,12 +49,12 @@
 		<servlet-class>com.revature.controller.EmployeeHistoryServlet</servlet-class>
 	</servlet>
 	
-			<servlet>
+	<servlet>
 		<servlet-name>UpdateInfoServlet</servlet-name>
 		<servlet-class>com.revature.controller.UpdateInfoServlet</servlet-class>
 	</servlet>
 	
-				<servlet>
+	<servlet>
 		<servlet-name>ViewEmployeesServlet</servlet-name>
 		<servlet-class>com.revature.controller.ViewEmployeesServlet</servlet-class>
 	</servlet>
@@ -62,6 +67,11 @@
 		<servlet-mapping>
 		<servlet-name>ViewEmployeesServlet</servlet-name>
 		<url-pattern>/sallemployees</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RequestServlet</servlet-name>
+		<url-pattern>/srequest</url-pattern>
 	</servlet-mapping>
 
 	<servlet-mapping>

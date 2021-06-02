@@ -2,8 +2,7 @@ document.getElementById("submit").addEventListener("click", submitRequest);
 
 function submitRequest(){
     let amount = document.getElementById("amount").value;
-	let type = document.getElementById("radio").value;
-	let ty
+	let type = document.getElementById("type").value;
     let description = document.getElementById("description").value;
     let file = document.getElementById("file").value;
 	let token = localStorage.getItem("token")
@@ -15,7 +14,7 @@ function submitRequest(){
 	xhr.onreadystatechange = function(){
 		if(xhr.readyState == 4 && xhr.status == 200){
 			
-            alert("You have successfully submited your reimbursement request! You can now return to the main menu or submit another request.");
+            alert("You have successfully submited your reimbursement request!");
 
 		} 
 		else if (xhr.readyState == 4){
@@ -29,13 +28,4 @@ function submitRequest(){
 	xhr.send(requestBody);
 }
 	
-	var radios = document.getElementsByName('radio');
-for (var i = 0, length = radios.length; i < length; i++) {
-  if (radios[i].checked) {
-    // do whatever you want with the checked radio
-    alert(radios[i].value);
 
-    // only one radio can be logically checked, don't check the rest
-    break;
-  }
-}

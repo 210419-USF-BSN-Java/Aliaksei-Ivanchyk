@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -70,11 +71,12 @@ public class ManagerDAOImpl implements ManagerDAO {
 					rb.setStatus(resultSet.getInt("status"));
 					rb.setManager_id(resultSet.getInt("manager_id"));
 					rb.setReim_id(resultSet.getInt("reim_id"));
-					rb.setDescription(resultSet.getString("type"));
+					rb.setType(resultSet.getString("type"));
 					Timestamp timeStampObj1 = resultSet.getTimestamp("resolveddate");
 					if (timeStampObj1 != null) {
 					rb.setResolveDate(timeStampObj1.toString());
 					}
+					rb.setUser_id(resultSet.getInt("user_id"));
 					rbs.add(rb);
 				
 			}
@@ -86,13 +88,16 @@ public class ManagerDAOImpl implements ManagerDAO {
 	}
 
 	@Override
-	public int updateReim(int reim_id, int status) throws BusinessException {
+	public int updateReim(int reim_id, int status, int managerID) throws BusinessException {
+		java.util.Date date = new Date();
 		int c = 0;
 		try (Connection connection = PostgresConnection.getConnection()) {
-			String sql = "update company.reimbursements set status=? where reim_id=?";
+			String sql = "update company.reimbursements set status=?, manager_id=?, resolveddate=?  where reim_id=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, status);
-			preparedStatement.setInt(2, reim_id);
+			preparedStatement.setInt(2, managerID);
+			preparedStatement.setTimestamp(3, new java.sql.Timestamp(date.getTime()));
+			preparedStatement.setInt(4, reim_id);
 			c = preparedStatement.executeUpdate();
 
 		} catch (ClassNotFoundException | SQLException e) {

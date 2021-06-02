@@ -1,4 +1,4 @@
-document.getElementById("approve").addEventListener("click", approveRequest);
+document.getElementById("check").addEventListener("click", viewRequest);
 document.getElementById("approve").addEventListener("click", rejectRequest);
 
 function viewRequest(){

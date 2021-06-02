@@ -67,7 +67,7 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 					rb.setStatus(resultSet.getInt("status"));
 					rb.setManager_id(resultSet.getInt("manager_id"));
 					rb.setReim_id(resultSet.getInt("reim_id"));
-					rb.setDescription(resultSet.getString("type"));
+					rb.setType(resultSet.getString("type"));
 				
 					rbs.add(rb);
 				}
@@ -96,7 +96,9 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 					Timestamp timeStampObj = resultSet.getTimestamp("submitdate");
 					rb.setSubmitDate(timeStampObj.toString());
 					Timestamp timeStampObj1 = resultSet.getTimestamp("resolveddate");
+					if (timeStampObj1 != null) {
 					rb.setResolveDate(timeStampObj1.toString());
+					}
 					rb.setStatus(resultSet.getInt("status"));
 					rb.setType(resultSet.getString("type"));
 					rb.setManager_id(resultSet.getInt("manager_id"));
@@ -129,7 +131,9 @@ public class ReimbursementDAOImpl implements ReimbursementDAO {
 					Timestamp timeStampObj = resultSet.getTimestamp("submitdate");
 					rb.setSubmitDate(timeStampObj.toString());
 					Timestamp timeStampObj1 = resultSet.getTimestamp("resolveddate");
+					if (timeStampObj1 != null) {
 					rb.setResolveDate(timeStampObj1.toString());
+					}
 					rb.setStatus(resultSet.getInt("status"));
 					rb.setType(resultSet.getString("type"));
 					rb.setManager_id(resultSet.getInt("manager_id"));
